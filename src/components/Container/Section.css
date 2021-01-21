@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 40px 0;
+    text-transform: uppercase;
+    color: #29385b;
+    font-weight: 600;
+    font-size: 32px;
+    border-bottom: 3px solid #29385b;
+    text-align: center;
+    width: 53%;
+}
