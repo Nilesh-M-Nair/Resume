@@ -14,8 +14,22 @@
     text-transform: uppercase;
 }
 
+.healthgoal__content{
+    text-align:left;
+    padding: 0 10px;
+ 
+}
+
+.slider__year{
+    text-align: right;
+    padding: 20px 0;
+    color:  #1c3266;
+    font-weight: 600;
+}
+
+
 .healthgoal__card{
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 10px #29385bc0;
 }
 
 .icon{
@@ -43,7 +57,6 @@
     color: #29385b;
     font-weight: 600;
     font-size: 32px;
-    border-bottom: 3px solid #29385b;
     text-align: center;
     width: 53%;
 }

@@ -12,12 +12,12 @@ function HealthGoalCard() {
     )
     return (
     // <div style={healthgoalcard}>
-      <div className="card__container">
-        <span className = 'card__heading'>Previously worked on..</span>
+      <span className="card__container">
+        <span className = 'card__heading'>Previously worked on</span>
         <span className = "card__healthcrad">
           {cardList}
         </span>
-    </div>
+    </span>
   )
 }
 

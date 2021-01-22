@@ -2,33 +2,35 @@ export const cardJSON = [
   {
     id:1,
     heading:"hotstar",
-    content: "Get a scientific explanattion for how scecific biomakers affect your body and what foosa can be used to improve them."
+    content: <span>&bull; Troubleshoot interface software and debugged application codes to improve functionality and performance.<br/>&bull; Monitored and improved front-end performance by 15% and documented application changes & worked on updates.<br/>&bull; Optimized components for maximum performance across a vast array of web-capable devices and browsers.</span>
   },
   {
     id:2,
     heading:"BMW",
-    content: "Discover how your habits are affecting your health and immunity with consulations over video/audio calls."
+    content: <span>&bull; Created features to enhance the user experience while ensuring that the web design is optimized for smartphones.<br/>&bull; Reviewed application requirements and interface designs to ensure compatibility with existing applications changes & worked on updates.<br/>&bull; Cordinated with the development team of 25 to discuss user interface ideas and applications.</span>
   },
   {
     id:3,
     heading:"Khelomore",
-    content: "Discuss your goals/plans and build healthy habits with your nutritionist to boost your immunity."
+    content: <span>&bull; Identified web-based user interactions and developed highly-responsive user interface components via React concepts.<br/>&bull; Developed the latest user-facing features using React.js and built reusable components & front-end libraries for future use.<br/>&bull; Translated designs & wireframes into high-quality code and wrote application interface code via JavaScript following React.js workflows.</span>
   },
   {
     id:4,
     heading:"nisa",
-    content: "Identify your superfoods as per your blood biomakers and take the guesswork out of eating right."
+    content: <span>&bull; Translated designs & wireframes into high-quality code and wrote application interface code via JavaScript following React.js workflows from scratch.<br/>&bull; Components Designing & Application Interface Coding, Performance Optimization & Features Development.<br/>&bull; Optimized components for maximum performance across a vast array of web-capable devices and browsers.</span>
   },
   {
     id:5,
-    heading:"24/7 support",
-    content: "Get real time feedback on your food decisions. Questions are answered by your nutritionist."
+    heading:"Fiat",
+    content: <span>&bull; Produced high-quality mockups & designed different prototypes and provided high-quality graphics & visual elements using HTML, CSS & JavaScript.<br/>&bull; Coding & Website Improvement.</span>
   },
-  {
-    id:6,
-    heading:"sova community",
-    content: "Get access to network of experts (nutritionists, chefs, fitness trainers & immunologists) with daily health tips, easy recipes, immunity boosting foods & lifestyle recommendations."
-  },
+//   {
+//     id:6,
+//     heading:"sova community",
+//     content: <span>&bull; Troubleshoot interface software and debugged application codes to improve
+//     functionality and performance by 50% <br/>&bull; Monitored and improved front-end performance by 15% and documented application
+// changes & worked on updates.<br/>&bull; Optimized components for maximum performance across a vast array of web-capable
+// devices and browsers.</span>  },
 ]
 
 export const headerJSON = [
@@ -89,7 +91,7 @@ export const headerJSON = [
     alt:"cross icon"
   },{
     id:12,
-    icon:"icons/cross.webp",
+    icon:"icons/material.png",
     content: "Material UI",
     alt:"cross icon"
   },{
@@ -146,17 +148,7 @@ export const customersJSON = [
   {
     id:1,
     alt:'customer',
-    image:"customers/PARNEETA.webp",
-    text:<span>-Application Development & UI Designing<br/>
-               -Reviewed application requirements and interface designs to ensure compatibility with existing applications.<br/>
-               -Managed brand consistency throughout the design and maintained & improved the company's website by adding more features and functionality.<br/>
-               -Created features to enhance the user experience while ensuring that the web design is optimized for smartphones.       
-        </span>,
-    name:'Accenture'
-  },
-  {
-    id:2,
-    alt:'customer',
+    year:"FEB 2020 - SEP 2020",
     image:"customers/Kritika.webp",
     text:<span>- UI Components Designing & Application Interface Coding.<br/>
                - Code Debugging & Front-end Architecture.<br/>
@@ -165,7 +157,19 @@ export const customersJSON = [
                - Monitored and improved front-end performance by 15% and documented application changes & worked on updates.
     </span>,
     name:'Codalyze Technologies'
-  }
+  },
+  {
+    id:2,
+    alt:'customer',
+    year:"JULY 2019 - FEB 2020",
+    image:"customers/PARNEETA.webp",
+    text:<span>- Application Development & UI Designing<br/>
+               - Reviewed application requirements and interface designs to ensure compatibility with existing applications.<br/>
+               - Managed brand consistency throughout the design and maintained & improved the company's website by adding more features and functionality.<br/>
+               - Created features to enhance the user experience while ensuring that the web design is optimized for smartphones.       
+        </span>,
+    name:'Accenture'
+  },
   // ,{
   //   id:3,
   //   alt:'customer',

@@ -5,7 +5,7 @@ import { FiChevronLeft ,FiChevronRight } from "react-icons/fi";
 import './slide.css'
 
 const zero = 0;
-const number = 2;
+const number = 1;
 
 function Customer(){
 
@@ -27,21 +27,22 @@ function Customer(){
     })
 
     return(
-        <span className='slider'>
+        <span className='customer'>
             <span>
-            <FiChevronLeft className='slider__backward' onClick={changeback}/>
+            <FiChevronLeft className='customer__backward' onClick={changeback}/>
             </span>
-            <span className='slider__container'> 
-                {/* <span className="slider__avatar_container">
-                <Avatar className="slider__avatar" alt={customersJSON[user].alt} src={customersJSON[user].image} />
+            <span className='customer__container'> 
+                {/* <span className="customer__avatar_container">
+                <Avatar className="customer__avatar" alt={customersJSON[user].alt} src={customersJSON[user].image} />
                 </span> */}
-                <span className='slider__content'>
-                    <span className='slider__text' >{customersJSON[user].text}</span>
-                    <span className='slider__name'>- {customersJSON[user].name}</span>
+                <span className='customer__content'>
+                    <span className='customer__year'>{customersJSON[user].year}</span>
+                    <span className='customer__text' >{customersJSON[user].text}</span>
+                    <span className='customer__name'>- {customersJSON[user].name}</span>
                 </span>
             </span>
             <span>
-                <FiChevronRight className='slider__forward' onClick={change}/>
+                <FiChevronRight className='customer__forward' onClick={change}/>
             </span>
         </span>
         

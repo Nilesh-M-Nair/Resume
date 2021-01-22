@@ -8,6 +8,7 @@ import './Home.css'
 import Footer from '../../components/Footer/Footer';
 import Customer from '../../components/Slider/Customer';
 import Social from '../../components/Social/Social';
+import Slider from '../../components/Slider/Slider';
 
 function Home(){
     return(
@@ -17,7 +18,8 @@ function Home(){
             <HealthGoalCard/>
             <Social/>
             {/* <VideoIFrame/> */}
-            <Customer/>
+            {/* <Customer/> */}
+            <Slider/>
           
             {/* <Footer/> */}
             </div>
