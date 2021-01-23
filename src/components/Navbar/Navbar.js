@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { CgMoveLeft, CgRemote } from 'react-icons/cg';
-import {NavLink} from "react-router-dom";
+// import {NavLink} from "react-router-dom";
 import './Navbar.css'
 
 function Navbar(){
@@ -21,7 +21,7 @@ function Navbar(){
                 <span className='menu-icon' onClick={() => {handleClick()}} >
                     {click ? <CgRemote className='cheese-menu-open' />: <CgMoveLeft className='cheese-menu-open'/>}
                 </span>
-                <span className = 'container__2'  id={click?'navbar__hidden_1':null}>
+                <span className = 'container__2'  id={click?'navbar__hidden_1':null}> 
                 {/* <span className = 'navbar__menu'>
                         <NavLink className='navbar__link' activeStyle={{cursor: 'pointer',color: '#ff555f', fontWeight: "bold"}} exact to="/">Home</NavLink>
                         <NavLink className='navbar__link' activeStyle={{cursor: 'pointer',color: '#ff555f', fontWeight: "bold"}} exact to="/howitworks">how it works</NavLink>
@@ -32,7 +32,8 @@ function Navbar(){
                 </span> */}
                 </span>
                 <span className = 'container__3' id={click?'navbar__hidden_2':null}>
-                    <a className='navbar__button' href='document/NileshNairReactDeveloperResume.pdf' download="Resume_Nilesh">Download Resume</a>
+                <a className='navbar__portfolio' rel="noopener noreferrer" href ="https://tic-tac-toe-assignment2.herokuapp.com/" target='_blank'>Portfolio</a>
+                <a className='navbar__button' href='document/NileshNairReactDeveloperResume.pdf' download="Resume_Nilesh">Download Resume</a>
                 </span>
             </span>
         </nav>

@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-import Avatar from '@material-ui/core/Avatar';
+// import Avatar from '@material-ui/core/Avatar';
 import {customersJSON} from '../../data'
 import { FiChevronLeft ,FiChevronRight } from "react-icons/fi";
 import './slide.css'

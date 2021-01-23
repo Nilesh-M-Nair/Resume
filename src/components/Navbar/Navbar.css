@@ -26,6 +26,8 @@
  
  .container__3{
    margin: 0 10px 20px 0;
+   display: flex;
+   flex-direction: row;
  }
 
 .navbar__menu{
@@ -53,6 +55,13 @@
   text-decoration: none;
   color: white;
   padding: 0 15px;
+}
+
+.navbar__portfolio{
+  color: white;
+  text-decoration: none;
+  padding: 25px 50px 0px 50px;
+  text-align: center;
 }
 
 .navbar__button{
@@ -87,13 +96,12 @@
  .container__2{
    padding: 0;
    padding-bottom: 20px; 
-
  }
  
  .container__3{
    margin: 0;
    padding: 0;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
  }
  .navbar__button{
    padding: 0;
@@ -110,6 +118,7 @@
   }
   
   .container__1{
+    padding-bottom: 20px;
     padding-left: 10px;
    }
    
@@ -118,11 +127,10 @@
      padding-bottom: 10px; 
   
    }
-   
    .container__3{
      margin: 0;
      padding: 0;
-     padding-bottom: 10px;
+     padding-bottom: 30px;
    }
   
   .navbar__button{
@@ -132,11 +140,17 @@
     font-weight: 700;
     font-size: 12px;
   }
+
+  .navbar__portfolio{
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+  }
+
   .navbar__link{
     margin: 0;
     padding: 0;
     padding: 0 5px;
-
   }
 } 
 
@@ -172,7 +186,7 @@
     padding-right: 10px;
   }
 
-  #navbar__hidden_1 {
+  /* #navbar__hidden_1 {
     position: absolute;
     width: 100%;
     height: 250px;
@@ -184,7 +198,7 @@
     top: 65px;
     right: 0;
     border: 2px solid white;
-  }
+  } */
 
   .navbar__link{
     padding: 20px 0;
@@ -197,7 +211,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
+    padding: 30px 0px;
     margin: 0;
     height: 50px;
     background-color: #2e3f68;
@@ -216,6 +230,15 @@
     color: white;
     padding-top: 20px ;
   }
+  .navbar__button{
+   padding: 10px 10px;
+  }
+  
+  .navbar__button:hover{
+    background-color: #81decd;
+    color: black;
+  }
+  
   
   .cheese-menu-open, .cheese-menu-close{
       color: white;

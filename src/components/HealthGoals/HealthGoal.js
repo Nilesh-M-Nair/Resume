@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import {MdDns} from 'react-icons/md';
+// import {MdDns} from 'react-icons/md';
 import './HealthGoal.css'
 
 const useStyles = makeStyles({

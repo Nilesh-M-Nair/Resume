@@ -64,7 +64,7 @@ export const headerJSON = [
     icon:"icons/git.png",
     content: "GIT",
     alt:"cross icon"
-  },,{
+  },{
     id:7,
     icon:"icons/restapi.webp",
     content: "Rest API",

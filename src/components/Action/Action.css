@@ -116,19 +116,18 @@
     .action__container{
         display: flex;
         flex-direction: column;
-        margin: 0px 05%;
+        margin: 0px 0%;
+        padding-left: 0;
+        padding-right: 0;
         justify-content: center;
         align-items: center;
     }
-    
-    .action__image{
-    }
-    
     .action__content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     
     .action__content_h{
@@ -144,6 +143,11 @@
         color: white;
         text-align: center
     }
+
+    .action__image{
+        width: 250px;
+        height: 250px;
+    }
     
     .action__content_link{
         margin-top: 30px;
@@ -156,3 +160,13 @@
     }
     
     }
+
+    @media only screen and (max-width:350px) {
+    
+        .action__image{
+            width: 220px;
+            height: 220px;
+        }
+
+        
+        }
